@@ -1,0 +1,6 @@
+runtime "ruby", "2.1"
+exec "busgogo_updater_worker.rb"
+
+gemfile 'Gemfile'
+
+full_remote_build true
